@@ -1,7 +1,7 @@
 {
   "name": "react-burger-starter",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://zadvornau-stanislau.github.io/test/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
