@@ -1,0 +1,25 @@
+.orders {
+  padding: 0 8px 0 0;
+  width: 850px;
+  display: flex;
+  flex-direction: column;
+  max-height: 600px;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: unset;
+  gap: 10px;
+}
+.orders::-webkit-scrollbar {
+  width: 12px;
+}
+
+.orders::-webkit-scrollbar-track {
+  background: #2f2f37;
+}
+
+.orders::-webkit-scrollbar-thumb {
+  background: #8585ad;
+  border: 3px solid #2f2f37;
+  border-radius: 6px;
+}

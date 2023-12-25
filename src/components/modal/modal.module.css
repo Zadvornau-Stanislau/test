@@ -1,0 +1,24 @@
+.modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 720px;
+  min-height: 539px;
+
+  border-radius: 40px;
+  border: 1px solid var(--interface-modal-edge, rgba(76, 76, 255, 0.2));
+  background: var(--interface-modal-bg, #1c1c21);
+  z-index: 20;
+}
+.modal__cross {
+  position: absolute;
+  background: var(--interface-modal-bg, #1c1c21);
+  border: none;
+  top: 60px;
+  right: 40px;
+  cursor: pointer;
+}
+.container__modal_center {
+  text-align: center;
+}

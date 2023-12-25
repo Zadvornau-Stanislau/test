@@ -1,0 +1,7 @@
+.cart__ingridient {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 8px;
+}

@@ -1,0 +1,22 @@
+.page {
+  max-width: 2000px;
+
+  margin: 0 auto;
+}
+.main {
+  max-width: 1240px;
+  display: flex;
+
+  margin: 0 auto;
+  gap: 40px;
+}
+.services {
+  position: absolute;
+  text-align: center;
+  font-size: 42px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+  color: #b54fbe;
+}

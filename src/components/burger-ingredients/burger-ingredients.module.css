@@ -1,0 +1,32 @@
+.section {
+  max-width: 600px;
+}
+
+.title {
+  color: #f2f2f3;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-height: 65vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: unset;
+}
+.ingredient_category {
+  display: flex;
+}
+.container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.container::-webkit-scrollbar-track {
+  background: #2f2f37;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: #8585ad;
+  border: 3px solid #2f2f37;
+  border-radius: 6px;
+}

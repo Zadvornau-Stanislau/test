@@ -1,0 +1,128 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  box-sizing: border-box;
+  width: 100%;
+  text-decoration: none;
+  color: #f2f2f3;
+  border-radius: 40px;
+  background-color: #1c1c21;
+  margin: 0 auto;
+  text-align: left;
+}
+.container_list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container_number {
+  margin: 0;
+  padding: 0;
+}
+.container_date {
+  margin-left: auto;
+}
+.conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+.conteiner_icon_one {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #801ab2;
+  background-color: #131316;
+  border-radius: 50%;
+  z-index: 8;
+  list-style-type: none;
+}
+.conteiner_icon_two {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #801ab2;
+  border-radius: 50%;
+  background-color: #131316;
+  transform: translate(-20px);
+  z-index: 7;
+  list-style-type: none;
+}
+.conteiner_icon_three {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #801ab2;
+  background-color: #131316;
+  border-radius: 50%;
+  transform: translate(-40px);
+  z-index: 6;
+  list-style-type: none;
+}
+.conteiner_icon_four {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #801ab2;
+  border-radius: 50%;
+  background-color: #131316;
+  transform: translate(-60px);
+  z-index: 5;
+  list-style-type: none;
+}
+.conteiner_icon_five {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #801ab2;
+  border-radius: 50%;
+  background-color: #131316;
+  transform: translate(-80px);
+  z-index: 4;
+  list-style-type: none;
+}
+.conteiner_icon_six {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #801ab2;
+  border-radius: 50%;
+  background-color: #131316;
+  transform: translate(-100px);
+  z-index: 2;
+  list-style-type: none;
+}
+
+.container_price {
+  display: flex;
+  gap: 8px;
+}
+.container_icon {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.icon {
+  position: absolute;
+  width: 100px;
+  height: 64px;
+  transform: translate(-19px);
+}
+.remaining_ngredients {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  transform: translate(220px);
+  text-align: center;
+  line-height: 60px;
+  z-index: 3;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #0d0d0e9a;
+  color: #f2f2f3;
+}

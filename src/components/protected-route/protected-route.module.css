@@ -1,0 +1,53 @@
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 3px dotted #5d2a89;
+  border-style: solid solid dotted dotted;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  box-sizing: border-box;
+  animation: rotation 2s linear infinite;
+  z-index: 10;
+  top: 50%;
+  left: 49%;
+}
+.loader::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px dotted #c625ce;
+  border-style: solid solid dotted;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  animation: rotationBack 1s linear infinite;
+  transform-origin: center center;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.border {
+  border: 2px solid rgb(19, 33, 154);
+  border-radius: 70px;
+}

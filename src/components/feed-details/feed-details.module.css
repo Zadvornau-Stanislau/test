@@ -1,0 +1,28 @@
+.container_modal {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+.text_color_done {
+  color: #0cc;
+}
+.date {
+  display: flex;
+  align-items: center;
+  max-width: 650px;
+  width: 100%;
+}
+.container_price {
+  display: flex;
+  gap: 8px;
+
+  margin-left: auto;
+}
+.text_color_data {
+  color: #8585ad;
+}
+.container_icon {
+  display: flex;
+  align-items: center;
+}
